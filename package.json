@@ -1,19 +1,19 @@
 {
-  "name": "fungibility",
+  "name": "ReadabilityX",
   "version": "0.0.1",
-  "description": "A Readability clone for use with heroku",
+  "description": "Web Client & API based on readability, fungibility, mozilla redability and readability-node  ",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "readability-node": "0.1.0",
-    "jsdom": "8.2.0",
-    "mu2": "0.5.20"
+    "jsdom": "^9.9.1",
+    "mu": "^2.0.5",
+    "mu2": "^0.5.21",
+    "readability-node": "^0.1.0"
   },
   "engines": {
     "node": "5.9.0"
   },
   "license": "MIT"
 }
-
